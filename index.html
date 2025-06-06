@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn how to keep kids safe online with our free awareness classes.">
+  <title>Kids Online Safety Awareness</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <h1>Kids Online Safety Awareness</h1>
+    <p class="tagline">Helping families keep children safe on the internet</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Free Online Classes</h2>
+      <p>Sign up for our interactive online sessions to learn how to protect kids while they explore the digital world.</p>
+    </section>
+
+    <section class="signup">
+      <h2>Sign Up for Updates</h2>
+      <form id="signup-form" action="https://formspree.io/f/xwkqylkk" method="POST">
+        <label for="name">Parent/Guardian Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Sign Up</button>
+      </form>
+      <div id="status" class="status hidden" role="status" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Kids Online Safety Awareness</p>
+  </footer>
+</body>
+</html>
