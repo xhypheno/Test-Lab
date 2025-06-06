@@ -15,3 +15,5 @@ This repository contains a simple static website that advertises online safety a
 ### Customizing sign-up behavior
 The sign-up form uses [Formspree](https://formspree.io/) by default. Replace the sample Formspree URL in `index.html` with your own endpoint to start receiving form submissions in your email.
 
+The included `script.js` submits the form asynchronously and displays a status message below the form. If you prefer a different behavior, adjust the script accordingly.
+

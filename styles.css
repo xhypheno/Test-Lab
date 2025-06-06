@@ -51,6 +51,11 @@ button:hover {
   background-color: #0f5fa7;
 }
 
+.status {
+  margin-top: 1em;
+  color: #2e7d32;
+}
+
 footer {
   text-align: center;
   padding: 1em;
